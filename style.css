@@ -4,13 +4,13 @@ body, html {
     height: 100%;
     display: flex;
     justify-content: center;
-    color: grey;
+    background-color: #efefef;
 }
 
 h1 {
     padding: 30px 0px 0px 0px;
     color: #0f0f0f;
-    font-family: 'Trajan', serif;
+    font-family: 'Times New Roman', serif;
     font-weight: 400;
     font-size: 125px;
     line-height: 78px;
@@ -30,7 +30,7 @@ p {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: #efefef;
     overflow: hidden;
     margin: auto;
 }
