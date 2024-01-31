@@ -4,7 +4,7 @@
 		}
 
 		.article {
-			width: 40vw;
+			width: 60%;
 		}
 
 		.subtitle {
@@ -86,7 +86,36 @@
 		    overflow-wrap: normal;
 		}
 
-		@media screen and (min-width: 500px) {
+		@media screen and (min-width: 1440px) {
+
+		.article {
+			width: 40%;
+			
+		}
+
+		.titleLink {
+			font-size: 10px;
+		}
+
+		a:link { 
+		  text-decoration: none; 
+  		  font-weight: 900;
+  		  color: black;
+
+		} 
+		a:visited { 
+		  text-decoration: none; 
+		  color: black;
+		} 
+		a:hover { 
+		  color: #999999;
+		} 
+		a:active { 
+		  text-decoration: none; 
+		}
+	}
+
+		@media screen and (max-width: 1024px) {
 
 		.article {
 			width: 90%;
