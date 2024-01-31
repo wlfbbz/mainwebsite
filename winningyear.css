@@ -86,11 +86,10 @@
 		    overflow-wrap: normal;
 		}
 
-		@media screen and (max-width: 500px) {
+		@media screen and (min-width: 500px) {
 
 		.article {
-			width: 80vw;
-			max-width: 80vw;
+			width: 90%;
 		}
 
 		.titleLink {
@@ -112,4 +111,4 @@
 		a:active { 
 		  text-decoration: none; 
 		}
-}
+	}
