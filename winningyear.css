@@ -4,12 +4,19 @@
 		}
 
 		.article {
-			width: 50vw;
+			width: 40vw;
+		}
+
+		.subtitle {
+			text-transform: uppercase;
+			font-size: 0.8rem;
+			margin-bottom: 0px;
+			font-weight: 500;
+			color: #777777;
 		}
 
 		.titleLink {
     		line-break: auto;
-		    text-align: center;
 		    margin-bottom: 20px;
 		    color: black;
 		    font-family: UniversNextVariable, "Helvetica Neue", AdjustedArial, sans-serif;
@@ -49,8 +56,7 @@
 
 
 		p {
-			--color__token-name: colors.discovery.body.white.description;
-		    color: rgb(51, 51, 51);
+		    color: #333333;
 		    --type-token: discovery.description-feature;
 		    text-transform: none;
 		    font-family: UniversNextVariable, "Helvetica Neue", AdjustedArial, sans-serif;
@@ -79,3 +85,30 @@
 		    font-weight: 400;
 		    overflow-wrap: normal;
 		}
+
+		@media screen and (max-width: 500px) {
+
+		.article {
+			width: 80vw;
+		}
+
+		.titleLink {
+			font-size: 10px;
+		}
+
+		a:link { 
+		  text-decoration: none; 
+  		  font-weight: 900;
+
+		} 
+		a:visited { 
+		  text-decoration: none; 
+		  color: black;
+		} 
+		a:hover { 
+		  color: #999999;
+		} 
+		a:active { 
+		  text-decoration: none; 
+		}
+}
