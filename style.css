@@ -26,6 +26,10 @@ p {
     line-height: 0;
 }
 
+iframe {
+    border: none;
+}
+
 .container {
     position: relative;
     width: 100vw;
@@ -58,13 +62,38 @@ p {
     height: 156px;
 }
 
-#square4 {
+.article {
     width: 280px;
     height: 156px;
-    line-height: 42px;
-    font-family: 'times-new-roman', serif;
-    font-size: 16px;
-    color: black;
+    position: absolute;
 }
 
+#square4 {
+    width: 320px;
+    height: 180px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+}
+
+#square5 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    width: 100%;
+}
+
+a:link { 
+  text-decoration: none; 
+  font-weight: 900;
+
+} 
+a:visited { 
+  text-decoration: none; 
+  color: black;
+} 
+a:hover { 
+  color: #999999;
+} 
+a:active { 
+  text-decoration: none; 
+}
 
