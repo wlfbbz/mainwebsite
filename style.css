@@ -62,23 +62,17 @@ iframe {
     height: 156px;
 }
 
-.article {
-    width: 280px;
-    height: 156px;
-    position: absolute;
+#square4 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    width: 100%;
 }
 
-#square4 {
+#square5 {
     width: 320px;
     height: 180px;
     background-color: whitesmoke;
     border-radius: 16px;
-}
-
-#square5 {
-    font-family: 'Arial', sans-serif;
-    font-weight: 300;
-    width: 100%;
 }
 
 a:link { 
