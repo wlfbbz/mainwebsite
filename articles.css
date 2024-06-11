@@ -75,7 +75,7 @@
 			margin-top: 0px;
 		}
 
-		p {
+		p, li {
 		    color: #333333;
 		    --type-token: discovery.description-feature;
 		    text-transform: none;
