@@ -90,6 +90,22 @@
 		    font-size: 16px;
 		}
 
+
+		.boldtext {
+		    font-size: 18px;
+		    font-family: 'Arial', sans-serif;
+		    font-weight: 800;
+		    line-height: 0;
+		}
+
+		h4 {
+		    font-size: 14px;
+		    font-family: 'Arial', sans-serif;
+		    font-weight: 800;
+		    line-height: 0;
+		}
+
+
 		.ps {
 			--color__token-name: colors.discovery.body.white.description;
 		    color: rgb(51, 51, 51);

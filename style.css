@@ -82,6 +82,13 @@ iframe {
     border-radius: 16px;
 }
 
+#square7 {
+    width: 320px;
+    height: 180px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+}
+
 a:link { 
   text-decoration: none; 
   font-weight: 900;
